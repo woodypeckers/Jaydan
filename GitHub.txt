@@ -1,0 +1,30 @@
+
+	所有东西都要放在一个文件夹里面，就是一个分支，含有.git文件的
+新建一个空的仓库，需要配置初始化信息：
+	git config --global user.email"xxxxxxx@xx.com"
+	git config --global user.name"xxxxxxx"
+	
+	
+	git init  #生成一个.git的隐藏文件，说明是一个git仓库
+    git add . #添加到缓存
+	git commit -m "first commit" #提交并加上注释
+	git clone http/ssh
+	git pull http/ssh #拉
+	git push -u origin master（仓库的主人）/http/ssh #推
+	git clone http/ssh #clone整个仓库
+
+    git remote add origin https://github.com/Jaydanna/CJdan.git
+	
+	删除文件：1.到目录下git rm -rf dirname   /git rm * -r   
+				$ git add . 
+				$ git commit -m "clear"
+				$ git push origin master
+			  2.在本地删除再提交，注明删除了说明
+			  
+常见错误：
+1.clone错误 ：permission denied（publickey）
+
+重新生成公钥：ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+  
