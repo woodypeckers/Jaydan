@@ -1,0 +1,22 @@
+#方法一
+1、下载Python2.7版本，默认运行安装即可；   
+2、安装完成之后，设置Python环境变量C:\Python27（操作步骤： 电脑->属性->高级->环境变量->系统变量中的PATH为:变量值： ;C:\Python27 ）
+3、在python的官方网站上可以找到SetupTools的下载,解压安装安装即可；  
+4、当安装SetupTools之后，就可以在python安装目录下看到Script目录，  
+5、同样在变量中加入 path：C:\Python27\Scripts，  
+6、打开cmd命令行，将目录切换到C:\Python27\Scripts下，输入命令“easy_install pip“安装pip；  
+7、安装成功pip之后，执行pip install -U selenium 进行下载安装最新selenium的版本。
+
+#方法二
+如果默认已经安装好pip
+直接cmd
+pip uninstall selenium  #卸载已安装的Selenium
+pip install selenium==2.53.6	
+
+#方法三
+这是没有安装pip的，官方的python
+python –m pip install selenium==2.53.6
+
+#方法四
+源目录安装
+selenium的安装目录下cmd python setup.py install
