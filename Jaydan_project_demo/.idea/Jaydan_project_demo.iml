@@ -5,6 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="proj_demo" />
+    <orderEntry type="module" module-name="multithreading_multiprocessing" />
+    <orderEntry type="module" module-name="selenium_grid" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

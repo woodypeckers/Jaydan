@@ -25,7 +25,7 @@ class BugfreeLogin(unittest.TestCase):
         driver.find_element_by_id("LoginForm_username").clear()
         driver.find_element_by_id("LoginForm_username").send_keys("admin")
         driver.find_element_by_id("LoginForm_password").clear()
-        driver.find_element_by_id("LoginForm_password").send_keys("123456")
+        driver.find_element_by_id("LoginForm_password").send_keys("111111")
         driver.find_element_by_id("LoginForm_rememberMe").click()
         driver.find_element_by_id("LoginForm_rememberMe").click()
         driver.find_element_by_id("SubmitLoginBTN").click()

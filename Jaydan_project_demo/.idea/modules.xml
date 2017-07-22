@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Jaydan_project_demo.iml" filepath="$PROJECT_DIR$/.idea/Jaydan_project_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_sample_code/multithreading_multiprocessing/.idea/multithreading_multiprocessing.iml" filepath="$PROJECT_DIR$/../python_sample_code/multithreading_multiprocessing/.idea/multithreading_multiprocessing.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../proj_demo/.idea/proj_demo.iml" filepath="$PROJECT_DIR$/../../proj_demo/.idea/proj_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_sample_code/selenium_grid/.idea/selenium_grid.iml" filepath="$PROJECT_DIR$/../python_sample_code/selenium_grid/.idea/selenium_grid.iml" />
     </modules>
   </component>
 </project>
